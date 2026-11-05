@@ -1,6 +1,6 @@
 {
   "id": "hive",
-  "name": "My theme",
+  "name": "Hive",
   "version": "1.0.0",
   "apiVersion": 18,
   "entry": "plugin.js",
@@ -14,8 +14,8 @@
     {
       "id": "hive",
       "name": {
-        "es": "hive",
-        "en": "My theme"
+        "es": "Hive",
+        "en": "Hive"
       },
       "colors": {
         "accent": "#FFD100",
@@ -32,7 +32,7 @@
         "error": "#C5291B"
       },
       "shape": {
-        "cardRadius": 0,
+        "cardRadius": 4,
         "buttonRadius": 0,
         "chipRadius": 0,
         "dialogRadius": 0,
@@ -45,7 +45,7 @@
       "background": {
         "type": "solid",
         "colors": [
-          "#29291F"
+          "#1E1E28"
         ]
       },
       "logo": {
