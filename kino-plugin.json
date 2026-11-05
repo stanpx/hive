@@ -1,0 +1,75 @@
+{
+  "id": "hive",
+  "name": "My theme",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Hive, un tema para kino, basado en el extinto servicio de streaming VRV.",
+  "author": "stanpx",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "hive",
+      "name": {
+        "es": "hive",
+        "en": "My theme"
+      },
+      "colors": {
+        "accent": "#FFD100",
+        "onAccent": "#000000",
+        "textPrimary": "#FFFFFF",
+        "textSecondary": "#A3A3B5",
+        "surface": "#1E1E28",
+        "surfaceHigh": "#2A2A35",
+        "outline": "#14141C",
+        "railPanel": "#14141C",
+        "focus": "#FFD100",
+        "success": "#31C436",
+        "warning": "#FFF36B",
+        "error": "#C5291B"
+      },
+      "shape": {
+        "cardRadius": 0,
+        "buttonRadius": 0,
+        "chipRadius": 0,
+        "dialogRadius": 0,
+        "inputRadius": 0,
+        "channelRadius": 0
+      },
+      "player": {
+        "buttonShape": "square"
+      },
+      "background": {
+        "type": "solid",
+        "colors": [
+          "#29291F"
+        ]
+      },
+      "logo": {
+        "mark": {
+          "size": [
+            1000,
+            1000
+          ],
+          "paths": [
+            {
+              "d": "M 500 50 L 933 300 L 933 700 L 500 950 L 67 700 L 67 300 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M 500 170 L 826 358 L 826 642 L 500 830 L 174 642 L 174 358 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M 500 270 L 740 408 L 740 592 L 500 730 L 260 592 L 260 408 Z",
+              "fill": "accent"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
